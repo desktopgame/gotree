@@ -12,8 +12,16 @@ func main() {
 	var (
 		limit      = flag.Int("l", 128, "depth limit")
 		showHidden = flag.Bool("a", false, "hidden files")
+		help       = flag.Bool("h", false, "help")
 	)
 	flag.Parse()
+	if *help {
+		fmt.Println("Usage: gotree [options] directory")
+		fmt.Println("  options:")
+		fmt.Println("    -l    depth limit")
+		fmt.Println("    -a    show hidden files")
+		os.Exit(1)
+	}
 	fArgs := flag.Args()
 	root := "."
 	if len(fArgs) > 0 {
