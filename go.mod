@@ -1,3 +1,3 @@
-module desktopgame
+module desktopgame/gotree
 
 go 1.13
