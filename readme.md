@@ -21,8 +21,8 @@ cd gotree
 gotree
 >C:\Work\go\desktopgame\gotree>gotree
 >.
-> go.mod
-> gotree.code-workspace
-> main.go
-> readme.md
+>  go.mod
+>  gotree.code-workspace
+>  main.go
+>  readme.md
 ````
