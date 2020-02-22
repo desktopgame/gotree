@@ -11,7 +11,7 @@ import (
 func main() {
 	var (
 		limit      = flag.Int("l", 128, "depth limit")
-		showHidden = flag.Bool("h", false, "hidden files")
+		showHidden = flag.Bool("a", false, "hidden files")
 	)
 	flag.Parse()
 	fArgs := flag.Args()

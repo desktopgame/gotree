@@ -12,7 +12,7 @@ go install
 # how to use
 ````
 gotree -l 2 project
-gotree -l 2 -h project
+gotree -l 2 -a project
 ````
 
 # example
