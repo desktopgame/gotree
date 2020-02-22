@@ -31,7 +31,9 @@ func walk(root string, name string, level int, limit int, showHidden bool) error
 		return nil
 	}
 	for i := 0; i < level; i++ {
-		fmt.Print(" ")
+		for n := 0; n < 2; n++ {
+			fmt.Print(" ")
+		}
 	}
 	fmt.Println(name)
 	// read sub entries
